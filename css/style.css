@@ -1,0 +1,84 @@
+body {
+  padding-top: 56px;
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.branding-title {
+  float: left;
+  margin: 0 0 0 12px;
+  font: 0/0 serif;
+  text-shadow: none;
+  color: transparent;
+  width: 51px;
+  background-size: 40px !important;
+  height: 40px;
+  background: url(../branding.png) 0 0px no-repeat;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .card-group {
+    padding-right: 125px;
+    padding-left: 125px;
+    padding-bottom: 25px;
+  }
+
+  .card-columns.adcards {
+    padding: 40px !important;
+  }
+
+  .card-columns.aboutcards {
+    padding-left: 125px !important;
+    padding-right: 125px !important;
+  }
+}
+
+
+a.dropdown-item {
+  cursor: pointer;
+}
+
+img#Cardlogo {
+  position: absolute;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #202020;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  background-color: #202020;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #202020;
+}
+
+/* Dark theme */
+
+body {
+  background-color: #2d3139;
+}
+
+.card {
+  background-color: transparent;
+  border: 1px solid #565759;
+}
+
+.card-footer {
+  border-top: 1px solid #565759;
+}
